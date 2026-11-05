@@ -1,0 +1,23 @@
+{
+  "name": "pagecraft-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Express API demonstrating the PageCraft npm package.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SammyBanner45/PageCraft-Demo.git"
+  },
+  "homepage": "https://github.com/SammyBanner45/PageCraft-Demo#readme",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@sambuddha_npm_dev/pagecraft": "^1.0.0",
+    "express": "^4.21.2"
+  }
+}
